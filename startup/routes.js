@@ -1,6 +1,7 @@
 
 const express = import('express');
 const logger = require('../middleware/logger.js');
+const error = require('../middleware/error.js');
 const home = require('../routes/home.js');
 const users = require('../routes/users.js');
 const emailVerifier = require('../routes/emailVerification.js');
@@ -14,4 +15,5 @@ module.exports = function(app){
     app.use('/api/email-verifier/', emailVerifier);
     app.use('/api/auth', auth);
     app.use('/api/account', account);
+    app.use(error);
 }
