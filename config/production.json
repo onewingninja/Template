@@ -1,5 +1,5 @@
 {
-    "name": "LineApp-Production",
+    "name": "Template-Production",
     "mongodb":{
         "url" : "",
         "loggingUrl": ""

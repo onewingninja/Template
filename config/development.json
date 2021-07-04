@@ -1,14 +1,14 @@
 {
-    "name": "LineApp-Development",
+    "name": "Template-Development",
     "mongodb":{
-        "url" : "mongodb://localhost/lineapp",
-        "loggingUrl": "mongodb://localhost/lineapp-log"
+        "url" : "mongodb://localhost/Template",
+        "loggingUrl": "mongodb://localhost/Template-log"
     },
     "jwtPrivateKey": "12345",
     "jwtHeader": "x-auth-token",
     "mail": {
         "service": "gmail",
-        "username": "lineapp@gmail.com",
+        "username": "Template@gmail.com",
         "password": "1234"
     }
 }

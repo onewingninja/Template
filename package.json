@@ -11,8 +11,10 @@
     "url": "lineapp"
   },
   "keywords": [
-    "line",
-    "reserve"
+    "template",
+    "node.js",
+    "express",
+    "mongodb"
   ],
   "author": "Saurav Kumar Joshi",
   "license": "GPL-3.0",
